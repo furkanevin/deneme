@@ -1,0 +1,19 @@
+.comp-2 {
+  padding: 1rem;
+
+  h3 {
+    display: flex;
+    align-items: center;
+  }
+  .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
+
+    img {
+      width: 8rem;
+      object-fit: contain;
+    }
+  }
+}
